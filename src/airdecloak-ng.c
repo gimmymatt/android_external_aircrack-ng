@@ -41,8 +41,9 @@
 #include <getopt.h>
 #include "airdecloak-ng.h"
 #include "version.h"
-#include "osdep/radiotap/radiotap-parser.h"
-#include "osdep/radiotap/ieee80211_radiotap.h"
+//#include "osdep/radiotap/radiotap-parser.h"
+//#include "osdep/radiotap/ieee80211_radiotap.h"
+#include "osdep/radiotap/radiotap_iter.h"
 
 uchar buffer[65536];
 

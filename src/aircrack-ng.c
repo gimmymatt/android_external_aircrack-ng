@@ -4146,7 +4146,7 @@ int next_dict(int nb)
 
 			fseek(opt.dict, 0L, SEEK_END);
 
-			if ( ftello( opt.dict ) <= 0L )
+			if ( ftell( opt.dict ) <= 0L )
 			{
 				printf("ERROR: %s\n", strerror(errno));
 				fclose( opt.dict );
